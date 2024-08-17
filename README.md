@@ -1,6 +1,6 @@
 # Quotes Bot
 
-A Discord Bot to parse through and remind you of some of your and your friend's funniest quotes! 
+A Discord Bot to parse through and remind you of your server's funniest quotes! 
 
 # Future Plans
 
