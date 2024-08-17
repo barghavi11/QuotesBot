@@ -92,7 +92,7 @@ async def on_message(message):
             cur.execute('SELECT quote FROM quotes WHERE server_id=%s', (str(message.guild.id),))
             quotes = cur.fetchall()
 
-        if len(quotes) > 50:
+        if len(quotes) > 2:
             await message.channel.send(f'There are {len(quotes)} quotes, do you want to view them all?')
             response = await bot.wait_for('message')
             if response.content.lower() == 'yes':
